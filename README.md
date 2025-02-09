@@ -1,3 +1,36 @@
+## Daftar Isi
+
+- [Cloud Storage](#cloud-storage)
+  - [Stream](#stream)
+  - [Snapshot](#snapshot)
+  - [Stream Builder](#stream-builder)
+  - [Firebase](#firebase)
+    - [Cloud Firestore](#firestore)
+      - [Read Data](#read)
+      - [Add Data](#add)
+      - [Update Data](#update)
+      - [Delete Data](#delete)
+
+## Cloud Storage
+
+- **Cloud Storage** merupakan layanan penyimpanan data yang dapat diakses melalui internet dan biasanya disimpan di server pihak ketiga.
+- **Cloud Storage** sangat berguna sebagai tempat penyimpanan data atau bahkan database terutama yang memiliki kapasitas yang besar karena batas penyimpanannya bisa tak terbatas dan lebih aman, namun hanya bisa diakses melalui internet.
+
+### Stream
+
+- **Stream** adalah fungsi asinkron yang dieksekusi berurutan layaknya sungai, yang sedikit berbeda dari Future yang hanya bisa mengembalikan satu data saja, Stream akan selalu mengalirkan data tersebut dan akan selalu mengubah datanya setiap kali ada perubahan hingga bisa dibilang dapat update data secara Real-Time.
+
+### Snapshot
+
+- **Snapshot** merupakan data yang dialirkan oleh stream yang memiliki 2 bagian, yaitu ConnectionState dan data yang dimana connection state menyatakan status koneksi dan data sebagai data yang terkandung didalamnya
+
+### StreamBuilder
+
+- **StreamBuilder** merupakan widget di framework flutter yang digunakan membuat suatu widget dengan data yang didapat dari snapshot yang dijalankan menggunakan Stream, widget akan selalu berubah setiap kali data berubah.
+- Untuk Implementasinya dapat dilihat pada bagian [Read](#read)
+
+### Firebase
+
 - **Firebase** adalah platform pengembangan aplikasi dari google yang biasanya digunakan untuk pengelolaan dan pertukaran data, dan beberapa fitur lainnya.
 - **Firebase** memiliki sistem penyimpanan awan/cloud storage yaitu **Cloud Firestore** yang akan digunakan pada project ini [https://firebase.google.com/docs/cli].
 
