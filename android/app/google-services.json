@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1065352815147",
+    "project_id": "fir-101-81a8b",
+    "storage_bucket": "fir-101-81a8b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065352815147:android:cfa71d8c908f1ac67c406e",
+        "android_client_info": {
+          "package_name": "com.example.motion_flutter_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg8CkYVRLwiRnydC_WhtynzAFgXZbtCxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
